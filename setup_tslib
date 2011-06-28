@@ -1,0 +1,10 @@
+export LD_LIBRARY_PATH=/mnt/storage/tslib/lib:$LD_LIBRARY_PATH
+export TSLIB_TSDEVICE=/dev/input/by-id/soc-noserial-event-ts
+export TSLIB_CALIBFILE=/mnt/storage/tslib/etc/pointercal
+export TSLIB_CONFFILE=/mnt/storage/tslib/etc/ts.conf
+export TSLIB_PLUGINDIR=/mnt/storage/tslib/lib/ts
+export QWS_DISPLAY=”LinuxFb:mmWidth80:mmHeight52″
+export QT_QWS_FONTDIR=/mnt/storage/lib/fonts
+export QWS_MOUSE_PROTO=tslib
+switch_output -l
+
