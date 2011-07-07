@@ -7,5 +7,6 @@ export TSLIB_PLUGINDIR=/mnt/storage/tslib/lib/ts
 export QWS_DISPLAY="LinuxFb:mmWidth80:mmHeight52"
 export QT_QWS_FONTDIR=/mnt/storage/lib/fonts
 export QWS_MOUSE_PROTO=tslib
+export TERMINFO=/mnt/storage/share/terminfo
 switch_output -l
 
