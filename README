@@ -8,7 +8,7 @@ You can then copy the TestChumbyQt binary to the Insignia Infocast by:
 
 $ scp TestChumbyQt root@your_chumby_ip_address:/mnt/storage
 
-Also copy the setup_tslib (part of this git repo) script over:
+Also copy the setup_paths (part of this git repo) script over:
 
 $ scp setup_tslib root@your_chumby_ip_address:/mnt/storage
 
@@ -16,7 +16,7 @@ Now ssh into root@your_chumby_ip_address, and
 
 $ cd /mnt/storage
 $ /usr/chumby/script/stop_control_panel
-$ source setup_tslib
+$ source setup_paths
 $ ./TestChumbyQt -qws -display :1
 
 
