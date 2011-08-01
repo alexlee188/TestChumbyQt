@@ -19,4 +19,9 @@ $ /usr/chumby/script/stop_control_panel
 $ source setup_paths
 $ ./TestChumbyQt -qws -display :1
 
+There is another script in this repo:  chumby-swap.sh
+
+This script sets up a 256M swap file to have more virtual memory for running large programs, such as GCC.
+
+
 
